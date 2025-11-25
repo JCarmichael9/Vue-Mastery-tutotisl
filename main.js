@@ -4,9 +4,10 @@ const app = Vue.createApp({
             product: 'Socks',
             description: 'A pair of warm, fuzzy socks.',
             image: './assets/images/socks_green.jpg',
+            inventory: 100,
             // solution
-            url: 'https://www.vuemastery.com/'
+            onSale: true
             // solution
         }
     }
-})
+});
